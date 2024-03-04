@@ -288,3 +288,7 @@ background-color: #2e2f42;
   color: #F4F4FD;
   letter-spacing: 0.02em;
 }
+/* flex-box */
+.header-logo-flex{
+  margin-left: 20px;
+}
