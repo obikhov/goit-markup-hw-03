@@ -289,6 +289,41 @@ background-color: #2e2f42;
   letter-spacing: 0.02em;
 }
 /* flex-box */
-.header-logo-flex{
-  margin-left: 20px;
+.container{
+  width: 1440px;
+  margin: auto;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+
+
+/* section 1 */
+.section-title{
+  display: block;
+  margin: auto;
+  width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.section-logo{
+  max-width: 496px;
+margin: auto;
+}
+.button{
+  display:block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+/* section 2 */
+.section-strategy-paragraf{
+  max-width: 264px;
+}
+.ul-flex-section{
+  padding-bottom: 120px;
 }
