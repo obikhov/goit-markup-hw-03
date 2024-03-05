@@ -368,7 +368,7 @@ align-items: center;
 /* section 1 */
 .flex-title{
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .flex-section-logo{
   max-width: 496px;
@@ -385,6 +385,13 @@ align-items: center;
   cursor: pointer;
 }
 /* section 2 */
+.section-tu{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.flex-logo-hiden{
+  visibility: hidden;
+}
 .ul-flex-section{
   display: flex;
   gap: 24px;
