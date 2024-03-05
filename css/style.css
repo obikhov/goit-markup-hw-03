@@ -465,7 +465,8 @@ padding-bottom :120px;
     margin-right: 0
   }
   .flex-potfolio-text{
-  padding: 32px,16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
  
   }
   .flex-logo-list-section-fo{
