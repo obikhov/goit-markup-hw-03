@@ -298,7 +298,9 @@ padding-left: 156px;
 padding-right: 156px;
 }
 
-
+img{
+  display: block;
+}
 
 /* header */
 .container {
@@ -393,7 +395,16 @@ padding-bottom: 120px;
 width: calc((100% - 72px) / 4);
 }
 .visually-hidden{
-visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .ul-flex-section{
 display: flex;
