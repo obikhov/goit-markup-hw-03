@@ -86,6 +86,10 @@ ul{
   padding: 0;
   margin: 0;
 }
+li.p{
+  padding: 0;
+  margin: 0;
+}
 
 .body{
   font-family: "Roboto", sans-serif;
@@ -113,7 +117,6 @@ color: #2e2f42;
 }
 .header-adres-list{
 color: #2E2F42;
-font-family:'Times New Roman', Times, serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -149,6 +152,7 @@ color: #FFFFFF;
 
 
 
+
 }
 .button{
 background-color: #4d5ae5;
@@ -169,16 +173,6 @@ background-color: #404BBF;
 cursor: pointer
 }
 
-
-.header-list{
-color: #2E2F42 ;
-font-family:"Raleway",sans-serif;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
-
-}
 .section-strategy-list{
 font-family:"Raleway",sans-serif;
 font-size: 20px;
@@ -187,6 +181,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42 ;
 }
+
 
 .list-studio-header{
 font-weight: 500;
@@ -204,14 +199,7 @@ color:  #404bbf
 }
 
 
-.section-strategy-list{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
 
-}
 .section-strategy-paragraf{
 font-size: 16px;
 line-height: 1.5;
@@ -220,6 +208,8 @@ letter-spacing: 0.02em;
 }
 .section-our-team{
 background-color: #F4F4FD;
+margin: 0;
+padding:0px;
 }
 .section-team-logo{
 font-size: 36px;
@@ -371,10 +361,13 @@ letter-spacing: 0.02em;
 .flex-title{
 padding-top: 188px;
 padding-bottom: 188px;
+margin: 0;
 }
 .flex-section-logo{
-max-width: 496px;
+max-width: 525px;
 margin: auto;
+margin-bottom: 48px;
+/* max-width: 496px; */
 }
 .flex-button{
 border: none;
@@ -390,6 +383,7 @@ cursor: pointer;
 .section-tu{
 padding-top: 120px;
 padding-bottom: 120px;
+margin: 0;
 }
 .list-section-tu{
 width: calc((100% - 72px) / 4);
@@ -420,6 +414,7 @@ margin-bottom: 8px;
 margin-top: 120px;
 padding-top: 120px;
 padding-bottom :120px; 
+margin: 0;
 }
 
 .flex-section-fri-logo{
@@ -462,6 +457,7 @@ text-align: center;
 .section-fo{
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0;
 }
 .flex-logo-section-fo{
   margin-bottom: 72px;
