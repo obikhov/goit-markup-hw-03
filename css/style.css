@@ -364,7 +364,7 @@ padding-bottom: 188px;
 margin: 0;
 }
 .flex-section-logo{
-max-width: 496px;
+  max-width: 496px;
 margin: auto;
 margin-bottom: 48px;
 /* max-width: 496px; */
@@ -430,9 +430,8 @@ flex-basis: calc((100% - 72px) / 4)
 }
 .flex-list-section-fri{
 display: flex;
-padding-top: 72px;
 gap: 24px;
-margin: auto;
+
 }
 .flex-list-logo-section-fri{
 padding-left: 16px;
