@@ -201,9 +201,12 @@ color:  #404bbf
 
 
 .section-strategy-paragraf{
-font-size: 16px;
+  font-family:"Roboto", sans-serif;
+  font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+max-width: 264px;
+
 
 }
 .section-our-team{
@@ -388,6 +391,7 @@ margin: 0;
 .list-section-tu{
 width: calc((100% - 72px) / 4);
 }
+
 .visually-hidden{
   position: absolute;
   width: 1px;
